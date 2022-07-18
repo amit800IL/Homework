@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Homework 1/Homework 1.unity
+- path: Assets/Homework 1/Events/Events.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

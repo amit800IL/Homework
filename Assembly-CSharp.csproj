@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{36607410-6DCD-6E78-D821-73B7EE101DA6}</ProjectGuid>
+    <ProjectGuid>{3E59CA73-3752-27D5-B88D-C789C4EF18A1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,32 +56,28 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Homework 1\Scripts\LevelLoading.cs" />
-    <Compile Include="Assets\Homework 1\Scripts\PasueMenu.cs" />
-    <Compile Include="Assets\TooManyCrosshairs\Unknown&apos;s Crosshairs\_Demo\Scripts\Gun.cs" />
-    <Compile Include="Assets\TooManyCrosshairs\_Demo\Scripts\Crosshair.cs" />
+    <Compile Include="Assets\Corrshair Assets\Unknown&apos;s Crosshairs\_Demo\Scripts\Gun.cs" />
+    <Compile Include="Assets\Corrshair Assets\_Demo\Scripts\Crosshair.cs" />
     <Compile Include="Assets\Homework 1\Scripts\MoveCamera.cs" />
-    <Compile Include="Assets\TooManyCrosshairs\Unknown&apos;s Crosshairs\_Demo\Scripts\Crosshair.cs" />
-    <Compile Include="Assets\TooManyCrosshairs\Cursors\_Demo\Scripts\CursorChanger.cs" />
+    <Compile Include="Assets\Corrshair Assets\Unknown&apos;s Crosshairs\_Demo\Scripts\Crosshair.cs" />
+    <Compile Include="Assets\Corrshair Assets\Cursors\_Demo\Scripts\CursorChanger.cs" />
     <Compile Include="Assets\Homework 1\Scripts\Interfaces\iDamagable.cs" />
-    <Compile Include="Assets\Homework 1\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Homework 1\Scripts\Target.cs" />
     <Compile Include="Assets\Homework 1\Scripts\EnemyShoot.cs" />
-    <Compile Include="Assets\Homework 1\Scripts\OptionsMenu.cs" />
     <Compile Include="Assets\Homework 1\Scripts\PlayerCollision.cs" />
     <Compile Include="Assets\Homework 1\Scripts\PlayerShoot.cs" />
     <Compile Include="Assets\Homework 1\Scripts\GameManager.cs" />
-    <Compile Include="Assets\TooManyCrosshairs\HELLSLAYER Crosshairs\_Demo\Scripts\Crosshair.cs" />
-    <Compile Include="Assets\TooManyCrosshairs\_Demo\Scripts\Gun.cs" />
-    <Compile Include="Assets\TooManyCrosshairs\Cursors\_Demo\Scripts\HideMouseCursor.cs" />
+    <Compile Include="Assets\Corrshair Assets\HELLSLAYER Crosshairs\_Demo\Scripts\Crosshair.cs" />
+    <Compile Include="Assets\Corrshair Assets\_Demo\Scripts\Gun.cs" />
+    <Compile Include="Assets\Corrshair Assets\Cursors\_Demo\Scripts\HideMouseCursor.cs" />
     <Compile Include="Assets\Homework 1\Scripts\Gun.cs" />
     <Compile Include="Assets\Homework 1\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\TooManyCrosshairs\Cursors\_Demo\Scripts\MoveToMousePosition.cs" />
+    <Compile Include="Assets\Corrshair Assets\Cursors\_Demo\Scripts\MoveToMousePosition.cs" />
     <Compile Include="Assets\Homework 1\Scripts\PlayerLook.cs" />
     <Compile Include="Assets\Homework 1\Scripts\Scriptable Objects\GunData.cs" />
-    <Compile Include="Assets\TooManyCrosshairs\Cursors\_Demo\Scripts\CursorTrigger.cs" />
+    <Compile Include="Assets\Corrshair Assets\Cursors\_Demo\Scripts\CursorTrigger.cs" />
     <Compile Include="Assets\Homework 1\Scripts\CrosshairHandler.cs" />
-    <Compile Include="Assets\TooManyCrosshairs\HELLSLAYER Crosshairs\_Demo\Scripts\Gun.cs" />
+    <Compile Include="Assets\Corrshair Assets\HELLSLAYER Crosshairs\_Demo\Scripts\Gun.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

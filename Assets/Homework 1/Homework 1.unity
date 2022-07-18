@@ -410,7 +410,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8128339593474887880, guid: 7f24bb2f8eefcc640bf082e4eb633ed9, type: 3}
       propertyPath: m_Name
-      value: Target (1)
+      value: Target
       objectReference: {fileID: 0}
     - target: {fileID: 8128339593474887881, guid: 7f24bb2f8eefcc640bf082e4eb633ed9, type: 3}
       propertyPath: RobotExplosion

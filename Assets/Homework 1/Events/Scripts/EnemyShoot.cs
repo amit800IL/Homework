@@ -9,7 +9,7 @@ public class EnemyShoot : MonoBehaviour
    public void Shoot()
     {
         var bullet = Instantiate(ObjectToShoot, ShootPoint.position, ShootPoint.rotation);
-        Vector3 shootDir = GameManager.instance.playerMovement.transform.position - ShootPoint.position;
+        Vector3 shootDir = GameSystems.instance.playerMovement.transform.position - ShootPoint.position;
         bullet.GetComponent<Rigidbody>().velocity = shootDir * bulletSpeedMultiplier;
 
     }

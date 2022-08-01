@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &34195848 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4254916988272455507, guid: bcfcaf66df14add43bfa7904dd38a148, type: 3}
-  m_PrefabInstance: {fileID: 4254916989667448897}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a34cf04171ba7a9468355cc51bb5825e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &53574147
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +229,7 @@ GameObject:
   - component: {fileID: 328886436}
   - component: {fileID: 328886435}
   m_Layer: 0
-  m_Name: Game Manager
+  m_Name: Game Systems
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -259,7 +248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1676921766}
-  playerMovement: {fileID: 34195848}
+  playerMovement: {fileID: 524475181}
 --- !u!4 &328886436
 Transform:
   m_ObjectHideFlags: 0
@@ -401,6 +390,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &524475181 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4254916988272455507, guid: bcfcaf66df14add43bfa7904dd38a148, type: 3}
+  m_PrefabInstance: {fileID: 4254916989667448897}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a34cf04171ba7a9468355cc51bb5825e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &787479886
 PrefabInstance:
   m_ObjectHideFlags: 0

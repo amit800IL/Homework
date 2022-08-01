@@ -10,7 +10,7 @@ public class PlayerCollision : MonoBehaviour
     {
         if (collisionInfo.gameObject.CompareTag("Player"))
         {
-            GameManager.instance.playerMovement.OnFailure.Invoke();
+            GameSystems.instance.playerMovement.OnFailure.Invoke();
         }
      
 
